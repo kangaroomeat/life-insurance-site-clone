@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#login-nav {
+    background-color: rgb(28, 28, 120);
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    /*height: 50px;*/
+}
+
+#login-nav p {
+    background-color: rgb(28, 28, 120);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+    
+}
+
+#login-nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#second-nav {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+#second-nav h2, #second-nav p {
+    padding: 10px;
+    color: rgb(28, 28, 120);
+}
+
+#second-nav h2 {
+    background-color: green;
+}
+
+#second-nav p {
+    background-color: aquamarine;
+}
+
+#second-nav p:hover {
+    border-bottom: 2px solid rgb(28, 28, 120);
+    color: orange;
+}
+
+#second-nav h2:hover, #second-nav p:hover {
+    cursor: pointer;
+}
+
