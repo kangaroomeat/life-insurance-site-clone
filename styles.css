@@ -17,6 +17,7 @@
     padding: 10px;
     font-size: 18px;
     text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     
 }
@@ -36,18 +37,28 @@
 #second-nav h2, #second-nav p {
     padding: 10px;
     color: rgb(28, 28, 120);
+    border-bottom: 1px solid rgb(28, 28, 120);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 
 #second-nav h2 {
     background-color: green;
+    background-color: white;
+    
+    
 }
 
 #second-nav p {
     background-color: aquamarine;
+    background-color: white;
+    padding: 40px;
+    text-align: left;
 }
 
 #second-nav p:hover {
-    border-bottom: 2px solid rgb(28, 28, 120);
+    border-bottom: 5px solid rgb(28, 28, 120);
     color: orange;
 }
 
