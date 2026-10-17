@@ -37,7 +37,7 @@
 #second-nav h2, #second-nav p {
     padding: 10px;
     color: rgb(28, 28, 120);
-    border-bottom: 1px solid rgb(28, 28, 120);
+    /*border-bottom: 1px solid rgb(28, 28, 120);*/
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -66,3 +66,39 @@
     cursor: pointer;
 }
 
+#third-nav {
+    display: flex;
+    background-color: pink;
+    background-color: rgb(155, 155, 197);
+}
+
+#third-nav p {
+    background-color: green;
+    background-color: rgb(155, 155, 197);
+    padding: 20px;
+    color: rgb(28, 28, 120);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#third-nav p.special:hover {
+    border-bottom: 5px solid rgb(28, 28, 120);
+    color: black;
+    cursor: pointer;
+}
+
+#find-an-agent-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    background-color: green;
+   
+    column-gap: 10;
+    border-radius: 5px;
+    margin: 10px;
+     margin-top: 30px;
+     font-size: 25px;
+}
