@@ -99,20 +99,23 @@ main {
 #find-an-agent-section {
     display: grid;
     grid-template-columns: 45% 55%;
+    column-gap: 10px;
+    padding: 35px;
 }
 
 #find-an-agent-section .column {
     background-color: pink;
     background-color: white;
-    column-gap: 5;
+    
     border-radius: 10px;
-    margin: 25px;
-     margin-top: 30px;
+    /*margin: 25px;
+    margin-top: 30px;*/
      /*font-size: 25px;*/
      padding: 20px;
      
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 50px;
+    column-gap: 15px;
 }
 
 #ernie-life-heading {
@@ -161,3 +164,20 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.middle-para {
+    background-color: #da291c;
+    background-color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin: 20px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.middle-para span {
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
