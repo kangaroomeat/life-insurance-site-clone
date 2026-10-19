@@ -181,3 +181,19 @@ main {
     text-transform: capitalize;
 }
 
+.explore-your-options-section {
+    background-color: green;
+    
+}
+
+.explore-your-options-section-columns {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.explore-your-options-section-columns .column {
+    background-color: #da291c;
+}
+
