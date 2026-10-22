@@ -190,10 +190,13 @@ main {
     background-color: pink;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
 }
 
 .explore-your-options-section-columns .column {
     background-color: #da291c;
+    
 }
+
+
+
 
