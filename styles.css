@@ -182,19 +182,55 @@ main {
 }
 
 .explore-your-options-section {
-    background-color: green;
+    /*background-color: green;*/
+    
     
 }
 
+.explore-your-options-section h1 {
+    text-transform: capitalize;
+}
+
 .explore-your-options-section-columns {
-    background-color: pink;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    
 }
 
 .explore-your-options-section-columns .column {
     background-color: #da291c;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 35px;
+
     
+}
+
+.explore-your-options-section-columns .column img {
+    width: 100%;
+}
+
+.explore-your-options-section-columns .column p, .explore-your-options-section-columns .column h2 {
+   
+    margin: 0px 0px 24px;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.explore-your-options-section-columns .column h2 {
+    text-transform: capitalize;
+}
+
+.link-learn-more {
+    text-transform: uppercase;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
