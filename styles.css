@@ -189,6 +189,7 @@ main {
 
 .explore-your-options-section h1 {
     text-transform: capitalize;
+    margin: 20px 35px;
 }
 
 .explore-your-options-section-columns {
@@ -196,6 +197,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
+    margin: 20px 35px;
     
 }
 
@@ -203,7 +205,7 @@ main {
     background-color: #da291c;
     border-radius: 10px;
     background-color: white;
-    margin: 20px 35px;
+    /*margin: 20px 35px;*/
 
     
 }
@@ -226,12 +228,27 @@ main {
     text-transform: capitalize;
 }
 
-.link-learn-more {
+.link-learn-more a {
     text-transform: uppercase;
-    color: blue;
+    color: rgb(0, 48, 87, 1);
     cursor: pointer;
     text-decoration: none;
+   
 }
+
+.link-learn-more a:hover {
+    color: rgb(1, 28, 50);
+}
+
+.box-shad {
+    transition: 0.3s ease-in-out;
+}
+
+.box-shad:hover {
+    box-shadow: 10px 10px 5px gray;
+}
+
+
 
 
 
