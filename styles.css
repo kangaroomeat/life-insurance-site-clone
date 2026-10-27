@@ -67,6 +67,7 @@ main {
 #second-nav p:hover {
     border-bottom: 5px solid rgb(0, 48, 87, 1);
     color: orange;
+    
 }
 
 #second-nav h2:hover, #second-nav p:hover {
@@ -246,6 +247,20 @@ main {
 
 .box-shad:hover {
     box-shadow: 10px 10px 5px gray;
+    transform: translateY(-20px);
+    border: 5px solid rgba(1, 28, 50, 0.75);
+}
+
+.box-shad::after {
+    filter: blur(2px);
+}
+
+#test-animation {
+    transition: 0.3s ease;
+}
+
+#test-animation:hover {
+    transform: translateY(-40px);
 }
 
 
